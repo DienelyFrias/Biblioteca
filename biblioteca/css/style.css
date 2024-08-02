@@ -1,0 +1,113 @@
+body {
+    background-color: #FFF8DC;
+    color: #654321;
+    padding-top: 50px;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    color: #CC5500 !important;
+}
+
+.navbar-nav .nav-link {
+    color: #654321 !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #D2691E !important;
+}
+
+.container {
+    background-color: #FFFFF0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    background-color: #FFFACD;
+    border: 1px solid #D2691E;
+}
+
+.card-title {
+    color: #8B0000;
+}
+
+.card-text {
+    color: #654321;
+}
+
+.btn-warning {
+    background-color: #CC5500;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #D2691E;
+}
+
+.btn-danger {
+    background-color: #8B0000;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #D2691E;
+}
+
+.btn-outline-success {
+    color: #000000;
+    border-color: #51f37a;
+    background-color:#51f37a;
+}
+
+.btn-outline-success:hover {
+    background-color: #51f37a;
+    color: #000000;
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.form-group label {
+    color: #654321;
+}
+
+.form-control {
+    border: 1px solid #D2691E;
+    background-color: #FFF8DC;
+}
+
+.form-control:focus {
+    border-color: #CC5500;
+    box-shadow: 0 0 5px rgba(204, 85, 0, 0.5);
+}
+
+.form-control-file {
+    border: 1px solid #D2691E;
+    background-color: #FFF8DC;
+}
+
+.form-control-file:focus {
+    border-color: #CC5500;
+    box-shadow: 0 0 5px rgba(204, 85, 0, 0.5);
+}
+
+.btn-editar:hover, .btn-eliminar:hover {
+    opacity: 0.8;
+}
+.table td {
+    vertical-align: middle;
+}
+.btn-group-custom {
+    display: flex;
+    gap: 10px;
+}
